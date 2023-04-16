@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kevcodex/NetworkingLayer",
       "state" : {
-        "revision" : "b93fc3756490599b6f988dea38f09d958880b9f6",
-        "version" : "2.0.0"
+        "revision" : "9db657b0c74b2801df675dac546e412a21d895c8",
+        "version" : "2.0.1"
       }
     }
   ],

@@ -8,6 +8,12 @@ import NetworkingLayerCore
 import FoundationNetworking
 #endif
 
+public extension NetworkingLayer {
+    init() {
+        self.init(wrapper: AlamofireWrapper())
+    }
+}
+
 /// A simple wrapper around Alamofire to abstract out the request building from client.
 public struct AlamofireWrapper: Networkable {
     
