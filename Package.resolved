@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Alamofire/Alamofire.git",
       "state" : {
-        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
-        "version" : "5.6.4"
+        "revision" : "723fa5a6c65812aec4a0d7cc432ee198883b6e00",
+        "version" : "5.9.0"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kevcodex/NetworkingLayer",
       "state" : {
-        "revision" : "9db657b0c74b2801df675dac546e412a21d895c8",
-        "version" : "2.0.1"
+        "revision" : "62a50f8025c9ada6964173acb4431d1173ee7f68",
+        "version" : "2.0.2"
       }
     }
   ],

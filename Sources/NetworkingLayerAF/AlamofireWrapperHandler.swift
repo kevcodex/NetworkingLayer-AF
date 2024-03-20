@@ -73,7 +73,7 @@ struct AlamofireWrapperDefaultHandler: AlamofireWrapperHandler {
             }
             .serializingData(automaticallyCancelling: false,
                              dataPreprocessor: DataResponseSerializer.defaultDataPreprocessor,
-                             emptyResponseCodes: DataResponseSerializer.defaultEmptyResponseCodes,
+                             emptyResponseCodes: request.acceptableEmptyResponseCodes,
                              emptyRequestMethods: DataResponseSerializer.defaultEmptyRequestMethods)
         
         let response = await task.response
